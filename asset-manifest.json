@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/caunter/static/css/main.7acaea2f.css",
+    "main.js": "/caunter/static/js/main.a757ac67.js",
+    "index.html": "/caunter/index.html",
+    "main.7acaea2f.css.map": "/caunter/static/css/main.7acaea2f.css.map",
+    "main.a757ac67.js.map": "/caunter/static/js/main.a757ac67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.a757ac67.js"
+  ]
+}
