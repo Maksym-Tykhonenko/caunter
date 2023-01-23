@@ -1,4 +1,9 @@
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement } from '../redux/slice';
+
 export const App = () => {
+  const dispatch = useDispatch();
+  const value = useSelector(state => state.value);
   return (
     <div
       style={{
@@ -10,7 +15,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <button onClick={()=> dispatch(decrement(1))}>-</button>
+            {value}
+        <button onClick={() => dispatch(increment(1))}>+</button>
     </div>
   );
 };
